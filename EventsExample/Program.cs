@@ -11,7 +11,7 @@ namespace EventsExample
             worker.WorkDone += new WorkDoneEventHandler(Worker_WorkDone);
             worker.WorkComplete += new EventHandler(Worker_WorkComplete);
 
-            worker.DoWork(10);
+            worker.DoWork(15);
         }
 
 
